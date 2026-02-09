@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(1200px 600px at 20% 0%, rgba(120, 80, 255, 0.25), transparent 60%),
+                radial-gradient(900px 500px at 100% 30%, rgba(0, 200, 255, 0.18), transparent 55%),
+                #0b0f17;
+    color: #e9edf5;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    height: 100vh;
+}
+
+/* Page base */
+main {
+    max-width: 2000px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 48px 20px;
+}
+
+main > h1 {
+    margin: 0 0 22px;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+/* Grid wrapper (this targets the <div> right under the h1) */
+main > h1 + div {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+/* Card (each camp block) */
+main > h1 + div > a {
+    border-radius: 18px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25);
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+
+    color: white;
+    text-decoration: none;
+}
+
+main > h1 + div > a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 255, 255, 0.22);
+}
+
+/* Image */
+main img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Title */
+main div a div {
+    padding: 14px 16px 16px;
+    display: flex;
+    flex-direction: column;
+}
+main h2 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    main > h1 + div {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    main img {
+        height: 190px;
+    }
+}
+
+@media (max-width: 560px) {
+    main > h1 + div {
+        grid-template-columns: 1fr;
+    }
+    main {
+        padding: 34px 16px;
+    }
+    main img {
+        height: 180px;
+    }
+}
+
+.breadcrumbs {
+    margin-bottom: 20px;
+}
+.breadcrumbs a {
+    color: white;
+    text-decoration: none;
+}
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.container-map {
+    width: 100%;
+    height: 80svh;
+
+    overflow: scroll;
+
+    margin-bottom: 50px;
+}
+
+.hover {
+    cursor: pointer ;
+}
+
+a {
+    color: rgb(194, 164, 80);
+}
+
+.side-side {
+    display: flex;
+    justify-content: space-between;
+
+    & div:first-child {
+        width: 70%;
+    }
+    & div:last-child {
+        width: 28%;
+    }
+}
+
+.image-container {
+    width: 100%;
+
+    object-fit: fill;
+
+    & img {
+        height: 100%;
+    }
+}
+
+.map-main {
+    width: 100%;
+    height: auto;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.article {
+    h1 {
+        margin: 0;
+    }
+    ul {
+        margin-left: 20px;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+}
