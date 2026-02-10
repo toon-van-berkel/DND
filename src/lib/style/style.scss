@@ -11,7 +11,8 @@ body {
                 #0b0f17;
     color: #e9edf5;
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 }
 
 /* Page base */
@@ -136,6 +137,20 @@ a {
     }
     & div:last-child {
         width: 28%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .side-side {
+        flex-direction: column-reverse;
+    
+        & div:last-child {
+            margin: 20px auto;
+            width: 50%;
+        }
+        & div:first-child {
+            width: 100%;
+        }
     }
 }
 
