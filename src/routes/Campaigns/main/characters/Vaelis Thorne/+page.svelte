@@ -19,7 +19,7 @@
         </ul>
     </section>
 
-    <hr>
+    <hr> 
 
     <section id="backstory" class="side-side">
         <div>

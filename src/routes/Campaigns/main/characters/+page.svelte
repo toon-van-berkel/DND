@@ -7,7 +7,7 @@
         <a href="{base}/">Home</a> /
         <a href="{base}/Campaigns">Campaigns</a> /
         <a href="{base}/Campaigns/Main">Main</a> /
-        <a href="{base}/Campaigns/Main/Characters">Characters</a>
+        <a href="{base}/Campaigns/Main/Characters">Characters</a> 
     </div>
 
     <hr>
