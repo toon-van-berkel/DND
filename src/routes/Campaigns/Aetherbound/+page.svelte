@@ -8,7 +8,7 @@
     <div class="breadcrumbs">
         <a href="{base}/">Home</a> /
         <a href="{base}/Campaigns">Campaigns</a> /
-        <a href="{base}/Campaigns/ae">Aetherbound</a>
+        <a href="{base}/Campaigns/Aetherbound">Aetherbound</a>
     </div>
     <h1>Aetherbound</h1>
 
@@ -17,5 +17,9 @@
     </div>
 
     <h2>Sableharbor</h2>
-    <p>Het eiland dat bekent staat voor de slavernij <a href="{base}/Campaigns/ae/Islands/Sableharbor">Sableharbor</a>. Corrupt en gevaarlijk. <a href="{base}/Campaigns/ae/Islands/Sableharbor">Leer meer...</a></p>
+    <p>
+        Het eiland dat bekent staat voor de slavernij <a href="{base}/Campaigns/Aetherbound/Islands/Sableharbor">
+        Sableharbor</a>. Corrupt en gevaarlijk. <a href="{base}/Campaigns/Aetherbound/Islands/Sableharbor">
+        Leer meer...</a>
+    </p>
 </main>

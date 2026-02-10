@@ -6,9 +6,9 @@
     <div class="breadcrumbs">
         <a href="{base}/">Home</a> /
         <a href="{base}/Campaigns">Campaigns</a> /
-        <a href="{base}/Campaigns/ae">Aetherbound</a> /
-        <a href="{base}/Campaigns/ae/Islands">Islands</a> /
-        <a href="{base}/Campaigns/ae/Islands/Sableharbor">Sableharbor</a>
+        <a href="{base}/Campaigns/Aetherbound">Aetherbound</a> /
+        <a href="{base}/Campaigns/Aetherbound/Islands">Islands</a> /
+        <a href="{base}/Campaigns/Aetherbound/Islands/Sableharbor">Sableharbor</a>
     </div>
 
     <div class="side-side">

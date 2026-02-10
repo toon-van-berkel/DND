@@ -6,9 +6,9 @@
     <div class="breadcrumbs">
         <a href="{base}/">Home</a> /
         <a href="{base}/Campaigns">Campaigns</a> /
-        <a href="{base}/Campaigns/main">Main</a> /
-        <a href="{base}/Campaigns/main/characters">Characters</a> /
-        <a href="{base}/Campaigns/main/characters/Vaelis Thorne">Vaelis Thorne</a>
+        <a href="{base}/Campaigns/Main">Main</a> /
+        <a href="{base}/Campaigns/Main/Characters">Characters</a> /
+        <a href="{base}/Campaigns/Main/Characters/Vaelis Thorne">Vaelis Thorne</a>
     </div>
 
     <section>

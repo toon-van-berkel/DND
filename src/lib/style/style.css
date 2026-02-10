@@ -28,15 +28,14 @@ main > h1 {
   letter-spacing: -0.02em;
 }
 
-/* Grid wrapper (this targets the <div> right under the h1) */
-main > h1 + div {
+main > .cards {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
-/* Card (each camp block) */
-main > h1 + div > a {
+main > .cards > a {
   border-radius: 18px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.06);
@@ -47,10 +46,16 @@ main > h1 + div > a {
   text-decoration: none;
 }
 
-main > h1 + div > a:hover {
+main > .cards > a:hover {
   transform: translateY(-4px);
   box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
   border-color: rgba(255, 255, 255, 0.22);
+}
+
+main > .longcards > a > img {
+  height: 400px;
+  -o-object-position: top;
+     object-position: top;
 }
 
 /* Image */
@@ -78,7 +83,7 @@ main h2 {
 
 /* Responsive */
 @media (max-width: 900px) {
-  main > h1 + div {
+  main > .cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   main img {
@@ -86,7 +91,7 @@ main h2 {
   }
 }
 @media (max-width: 560px) {
-  main > h1 + div {
+  main > .cards {
     grid-template-columns: 1fr;
   }
   main {
@@ -186,4 +191,14 @@ hr {
 }
 .article section {
   margin-bottom: 20px;
+}
+
+.Hierarchy > thead {
+  display: none;
+}
+.Hierarchy > tbody > tr > td {
+  width: 12.5%;
+  height: auto;
+  padding: 20px 10px;
+  background-color: rgba(255, 255, 255, 0.1254901961);
 }/*# sourceMappingURL=style.css.map */

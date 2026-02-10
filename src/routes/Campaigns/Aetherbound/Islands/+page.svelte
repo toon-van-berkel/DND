@@ -6,7 +6,7 @@
     <div class="breadcrumbs">
         <a href="{base}/">Home</a> /
         <a href="{base}/Campaigns">Campaigns</a> /
-        <a href="{base}/Campaigns/ae">Aetherbound</a> /
-        <a href="{base}/Campaigns/ae/Islands">Islands</a>
+        <a href="{base}/Campaigns/Aetherbound">Aetherbound</a> /
+        <a href="{base}/Campaigns/Aetherbound/Islands">Islands</a>
     </div>
 </main>
