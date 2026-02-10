@@ -1,5 +1,4 @@
 <script lang="ts">
-    import AetherboundMap from '$lib/components/AetherboundMap.svelte';
     import { base } from '$app/paths';
 </script>
 
