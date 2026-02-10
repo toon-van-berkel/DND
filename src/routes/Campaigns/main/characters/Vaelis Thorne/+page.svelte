@@ -1,17 +1,21 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <main class="article">
     <div class="breadcrumbs">
-        <a href="/">Home</a> /
-        <a href="/Campaigns">Campaigns</a> /
-        <a href="/Campaigns/main">Main</a> /
-        <a href="/Campaigns/main/characters">Characters</a> /
-        <a href="/Campaigns/main/characters/Vaelis Thorne">Vaelis Thorne</a>
+        <a href="{base}/">Home</a> /
+        <a href="{base}/Campaigns">Campaigns</a> /
+        <a href="{base}/Campaigns/main">Main</a> /
+        <a href="{base}/Campaigns/main/characters">Characters</a> /
+        <a href="{base}/Campaigns/main/characters/Vaelis Thorne">Vaelis Thorne</a>
     </div>
 
     <section>
         <h1>Vaelis Thorne</h1>
         <ul>
             <li><a href="#backstory">Backstory</a></li>
-            <li></li>
+            <li><a href="#undercity">Undercity</a></li>
         </ul>
     </section>
 
@@ -92,11 +96,16 @@
             </p>
         </div>
         <div class="image-container">
-            <img src="/main/VaelisThorne.png" alt="Vaelis Thorne">
+            <img src="{base}/main/VaelisThorne.png" alt="Vaelis Thorne">
         </div>
     </section>
 
-    <section>
+    <hr class="light-line">
+
+    <section id="undercity">
         <h2>Undercity</h2>
+        <p>
+            Een donkere vieze natte plek, 
+        </p>
     </section>
 </main>
