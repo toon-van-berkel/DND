@@ -12,7 +12,7 @@
         <a href="{base}/Campaigns/Main">
             <img src="{base}/camp1.png" alt="camp 1">
             <div>
-                <h2>Campaign 1</h2>
+                <h2>Main</h2>
                 <br>
                 <span>DM: Tijs</span>
                 <span>Party: 4p</span>
