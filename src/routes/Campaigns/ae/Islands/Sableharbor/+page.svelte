@@ -1,10 +1,14 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <main>
     <div class="breadcrumbs">
-        <a href="/">Home</a> /
-        <a href="/Campaigns">Campaigns</a> /
-        <a href="/Campaigns/ae">Aetherbound</a> /
-        <a href="/Campaigns/ae/Islands">Islands</a> /
-        <a href="/Campaigns/ae/Islands/Sableharbor">Sableharbor</a>
+        <a href="{base}/">Home</a> /
+        <a href="{base}/Campaigns">Campaigns</a> /
+        <a href="{base}/Campaigns/ae">Aetherbound</a> /
+        <a href="{base}/Campaigns/ae/Islands">Islands</a> /
+        <a href="{base}/Campaigns/ae/Islands/Sableharbor">Sableharbor</a>
     </div>
 
     <div class="side-side">
@@ -13,7 +17,7 @@
             <p></p>
         </div>
         <div class="image-container">
-            <img src="/Sableharbor.png" alt="Sableharbor">
+            <img src="{base}/Sableharbor.png" alt="Sableharbor">
         </div>
     </div>
 </main>
