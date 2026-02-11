@@ -1,3 +1,5 @@
+@import url("$lib/style/_Cards.scss");
+@import url("$lib/style/_Character-card.scss");
 * {
   margin: 0;
   padding: 0;
@@ -26,36 +28,6 @@ main > h1 {
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   font-weight: 800;
   letter-spacing: -0.02em;
-}
-
-main > .cards {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
-}
-
-main > .cards > a {
-  border-radius: 18px;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25);
-  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
-  color: white;
-  text-decoration: none;
-}
-
-main > .cards > a:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
-  border-color: rgba(255, 255, 255, 0.22);
-}
-
-main > .longcards > a > img {
-  height: 400px;
-  -o-object-position: top;
-     object-position: top;
 }
 
 /* Image */
@@ -183,14 +155,16 @@ hr {
   border-color: #0b0f17;
 }
 
-.article h1 {
-  margin: 0;
-}
-.article ul {
+ul, ol {
   margin-left: 20px;
 }
-.article section {
+
+section {
   margin-bottom: 20px;
+}
+
+.article h1 {
+  margin: 0;
 }
 
 .Hierarchy > thead {

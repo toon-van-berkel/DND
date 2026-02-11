@@ -15,7 +15,7 @@
         <h1>Vaelis Thorne</h1>
         <ul>
             <li><a href="#backstory">Backstory</a></li>
-            <li><a href="#undercity">Undercity</a></li>
+            <!-- <li><a href="#undercity">Undercity</a></li> -->
         </ul>
     </section>
 
@@ -100,12 +100,12 @@
         </div>
     </section>
 
-    <hr class="light-line">
+    <!-- <hr class="light-line">
 
     <section id="undercity">
         <h2>Undercity</h2>
         <p>
             Een donkere vieze natte plek, 
         </p>
-    </section>
+    </section> -->
 </main>

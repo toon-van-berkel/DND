@@ -10,6 +10,28 @@
         <a href="{base}/Campaigns">Campaigns</a> /
         <a href="{base}/Campaigns/Aetherbound">Aetherbound</a>
     </div>
+
+    <ul>
+        <li><a href="{base}/Campaigns/Aetherbound/Islands">Islands</a></li>
+        <ul>
+            <li><a href="{base}/Campaigns/Aetherbound/Islands/Sableharbor">Sableharbor</a></li>
+        </ul>
+        <li><a href="{base}/Campaigns/Aetherbound/NPC's">NPC's</a></li>
+        <ul>
+            <li><a href="{base}/Campaigns/Aetherbound/NPC's/Aurelion Sol">Aurelion Sol</a></li>
+        </ul>
+        <li><a href="{base}/Campaigns/Aetherbound/Players">Players</a></li>
+        <ul>
+            <li><a href="{base}/Campaigns/Aetherbound/Players/Party-1">Party-1</a></li>
+            <ul>
+                <li><a href="{base}/Campaigns/Aetherbound/Players/Party-1/Velorin Sabletongue">Velorin Sabletongue</a></li>
+            </ul>
+            <li><a href="{base}/Campaigns/Aetherbound/Players/Party-2">Party-2</a></li>
+        </ul>
+    </ul>
+
+    <hr>
+
     <h1>Aetherbound</h1>
 
     <div class="container-map">
