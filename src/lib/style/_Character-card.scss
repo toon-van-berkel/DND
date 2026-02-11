@@ -29,6 +29,7 @@
         font-size: 1.3em;
         font-family: p;
     }
+
     & > div:first-child,
     & > div:last-child {
         width: 50%;
@@ -55,5 +56,15 @@
     }
     .Character-card {
         flex-direction: column;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Character-card {
+        padding: 25px 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Character-card {
+        padding: 25px 10px;
     }
 }
