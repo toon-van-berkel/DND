@@ -24,7 +24,7 @@
                 <span><b>Type:</b> Player</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Marrek Vaal">
             <img src="{base}/main/vaelis/Marrek Vaal.png" alt="camp 2">
             <div>
                 <h2>Marrek Vaal</h2>
@@ -34,7 +34,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Iscara Morn">
             <img src="{base}/main/vaelis/Iscara Morn.png" alt="camp 2">
             <div>
                 <h2>Iscara Morn</h2>
@@ -44,7 +44,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Helior Quen">
             <img src="{base}/main/vaelis/Helior Quen.png" alt="camp 2">
             <div>
                 <h2>Helior Quen</h2>
@@ -54,7 +54,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Veska Drin">
             <img src="{base}/main/vaelis/Veska Drin.png" alt="camp 2">
             <div>
                 <h2>Veska Drin</h2>
@@ -64,7 +64,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Noct Sel">
             <img src="{base}/main/vaelis/Noct Sel.png" alt="camp 2">
             <div>
                 <h2>Noct Sel</h2>
@@ -74,7 +74,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Aurelion Solace">
             <img src="{base}/main/vaelis/Aurelion Solace.png" alt="camp 2">
             <div>
                 <h2>Aurelion Solace</h2>
@@ -84,7 +84,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Maera Kull">
             <img src="{base}/main/vaelis/Maera Kull.png" alt="camp 2">
             <div>
                 <h2>Maera Kull</h2>
@@ -94,7 +94,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Ryn Locke">
             <img src="{base}/main/vaelis/Ryn Locke.png" alt="camp 2">
             <div>
                 <h2>Ryn Locke</h2>
@@ -104,7 +104,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Eldra Veil">
             <img src="{base}/main/vaelis/Eldra Veil.png" alt="camp 2">
             <div>
                 <h2>Eldra Veil</h2>
@@ -114,7 +114,7 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters">
+        <a href="{base}/Campaigns/Main/Characters/Aurelion the Accreted">
             <img src="{base}/main/vaelis/Aurelion the Accreted.png" alt="camp 2">
             <div>
                 <h2>Aurelion the Accreted</h2>
