@@ -18,6 +18,7 @@
         </ul>
         <li><a href="{base}/Campaigns/Aetherbound/NPC's">NPC's</a></li>
         <ul>
+            <li><a href="{base}/Campaigns/Aetherbound/NPC's/Lucian Ducky">Lucian Ducky</a></li>
             <li><a href="{base}/Campaigns/Aetherbound/NPC's/Aurelion Sol">Aurelion Sol</a></li>
         </ul>
         <li><a href="{base}/Campaigns/Aetherbound/Players">Players</a></li>

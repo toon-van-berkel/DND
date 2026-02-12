@@ -74,16 +74,6 @@
                 <span><b>Type:</b> NPC (Backstory)</span>
             </div>
         </a>
-        <a href="{base}/Campaigns/Main/Characters/Aurelion Solace">
-            <img src="{base}/main/vaelis/Aurelion Solace.png" alt="camp 2">
-            <div>
-                <h2>Aurelion Solace</h2>
-                <br>
-                <span><b>Species:</b> Dark elf</span>
-                <span><b>Class:</b> Spy master</span>
-                <span><b>Type:</b> NPC (Backstory)</span>
-            </div>
-        </a>
         <a href="{base}/Campaigns/Main/Characters/Maera Kull">
             <img src="{base}/main/vaelis/Maera Kull.png" alt="camp 2">
             <div>

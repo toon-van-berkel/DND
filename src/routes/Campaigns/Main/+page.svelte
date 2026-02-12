@@ -9,6 +9,14 @@
         <a href="{base}/Campaigns/Main">Main</a>
     </div>
 
+    <ul>
+        <li><a href="{base}/Campaigns/Main/Characters">Characters</a></li>
+        <ul>
+            <li><a href="{base}/Campaigns/Main/Characters/Vaelis Thorne">Vaelis Thorne</a></li>
+        </ul>
+        <li><a href="{base}/Campaigns/Main/Hierarchy">Hierarchy</a></li>
+    </ul>
+
     <hr>
     
     <h1>Main</h1>
@@ -24,15 +32,4 @@
     </p>
 
     <hr class="light-line">
-    
-    <section class="article">
-        <h2>Links</h2>
-        <ul>
-            <li><a href="{base}/Campaigns/Main/Characters">Characters</a></li>
-            <ul>
-                <li><a href="{base}/Campaigns/Main/Characters/Vaelis Thorne">Vaelis Thorne</a></li>
-            </ul>
-            <li><a href="{base}/Campaigns/Main/Hierarchy">Hierarchy</a></li>
-        </ul>
-    </section>
 </main> 

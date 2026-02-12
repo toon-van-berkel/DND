@@ -1,10 +1,10 @@
 @font-face {
-    font-family: h;
-    src: url('$lib/style/fonts/DragonHunter-9Ynxj.otf');
+	font-family: "h";
+	src: url("./Scaly Sans/Scaly Sans.otf") format("opentype");
 }
 @font-face {
-    font-family: p;
-    src: url('$lib/style/fonts/DUNGRG__.TTF');
+	font-family: "p";
+	src: url("./Bookinsanity/Bookinsanity Bold Italic.otf") format("opentype");
 }
 
 .Character-card {
@@ -17,7 +17,7 @@
 
     & h2, h3 {
         font-family: h;
-        font-weight: 100;
+        font-weight: bolder;
     }
     h2 {
         font-size: 1.8em;
@@ -28,6 +28,9 @@
     & p, li {
         font-size: 1.3em;
         font-family: p;
+    }
+    & b {
+        color: #c2a450;
     }
 
     & > div:first-child,
